@@ -1,7 +1,9 @@
 # Tic Tac Toe React
 
 A simple project of the game tic tac toe in React js.
-
+<div align="center">
+  <img src="tic-tac-toe.png"  height="425" >0
+</div>
 
 
 
