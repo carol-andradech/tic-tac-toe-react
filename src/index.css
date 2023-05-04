@@ -6,6 +6,7 @@
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  background-color: #2a2f4f;
 }
 
 .gameboard {
@@ -13,13 +14,13 @@
   height: 300px;
   display: flex;
   flex-wrap: wrap;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 
 .square {
   width: 100px;
   height: 100px;
-  border: solid 2px black;
+  border: solid 2px white;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -30,7 +31,7 @@
   height: 90px;
   width: 90px;
   border-radius: 50%;
-  border: 15px solid blue;
+  border: 15px solid #917fb3;
   box-sizing: border-box;
 }
 
@@ -45,7 +46,7 @@
 .cross:after {
   content: "";
   position: absolute;
-  background-color: red;
+  background-color: #e5beec;
 }
 
 .cross:before {
