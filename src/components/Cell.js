@@ -1,5 +1,6 @@
 const Cell = ({ id, cell, setCells, go, setGo, cells, winningMessage }) => {
   const handleClick = (e) => {
+    console.log(e);
     //Check if the element has either a element of cross or circle
     const taken =
       e.target.firstChild.classList.contains("circle") ||

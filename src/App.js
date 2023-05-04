@@ -26,6 +26,7 @@ const App = () => {
         return;
       }
     });
+
     winningCombos.forEach((array) => {
       let crossWins = array.every((cell) => cells[cell] === "cross");
       if (crossWins) {
